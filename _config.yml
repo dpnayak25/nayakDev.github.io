@@ -1,28 +1,7 @@
-# ======================================================
-#   GitHub Research Portfolio – YAML Configuration
-#   Author: Dev Pradeepkumar Nayak
-#   Purpose: Professional academic research portfolio
-# ======================================================
-
-# ---------- Basic Site Info ----------
-title: "Research Portfolio"
-tagline: "Fluid–Structure Interaction • Fish Swimming Hydrodynamics • CFD"
-description: >
-  Graduate Researcher at Lakehead University specializing in bio-inspired
-  propulsion, dynamic & overset meshing, and computational fluid dynamics.
-
-%url: "https://YOUR_USERNAME.github.io"   # Change to your GitHub Pages URL
-baseurl: ""                              # Leave blank unless using subdirectory
-
-# ---------- Author Details ----------
-author:
-  name: "Dev P. Nayak"
-  email: "dpnayak@lakeheadu.ca"
-  affiliation: "Lakehead University"
-  linkedin: "https://www.linkedin.com/in/dev-nayak-b-eng-eit-2770891b5/"
-  google_scholar: "https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=aoK"
-  orcid: "https://orcid.org/my-orcid?orcid=0009-0008-7501-2694"
-
+title: Dev Pradeepkumar Nayak
+logo: IMG_8017.JPG
+#description: text below image
+show_downloads: type
 # ---------- Theme ----------
 theme: jekyll-theme-cayman     # Simple & clean
 # Other good themes:
@@ -43,30 +22,7 @@ nav:
   - title: "Contact"
     url: /contact
 
-# ---------- Markdown Settings ----------
-markdown: kramdown
-kramdown:
-  input: GFM    # GitHub-Flavored Markdown
 
-# ---------- Plugins ----------
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# ---------- SEO ----------
-seo:
-  type: "profile"
-  name: "Dev Pradeepkumar Nayak"
-  links:
-    - "-"
-    - "-"
-
-# ---------- Build Settings ----------
-exclude:
-  - README.md
-  - LICENSE
-  - Gemfile
-  - Gemfile.lock
 
 # ---------- Footer ----------
 footer:
