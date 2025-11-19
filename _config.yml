@@ -9,22 +9,3 @@ theme: jekyll-theme-cayman     # Simple & clean
 # jekyll-theme-slate
 # jekyll-theme-modernist
 
-# ---------- Navigation Menu ----------
-nav:
-  - title: "Home"
-    url: /
-  - title: "Publications"
-    url: /publications
-  - title: "Projects"
-    url: /projects
-  - title: "Skills"
-    url: /skills
-  - title: "Contact"
-    url: /contact
-
-
-
-# ---------- Footer ----------
-footer:
-  text: >
-    © 2025 Dev P. Nayak — Research Portfolio. All rights reserved.
