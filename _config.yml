@@ -2,7 +2,7 @@ title: Dev Pradeepkumar Nayak
 logo: IMG_8017.JPG
 #description: text below image
 # ---------- Theme ----------
-theme: jekyll-theme-minimal     # Simple & clean
+theme: jekyll-theme-slate     # Simple & clean
 # Other good themes:
 # jekyll-theme-minimal
 # jekyll-theme-slate
