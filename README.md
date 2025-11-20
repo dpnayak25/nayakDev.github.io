@@ -1,6 +1,12 @@
 CFD Researcher
 
-[Link Text]([https://github.com/yourusername/yourrepo](https://www.youtube.com/shorts/Kq28yBigDYw))
+[🏠 Home](README.md) | 
+[📘 Research](research.md) | 
+[🛠 Projects](projects.md) | 
+[📧 Contact](contact.md) |
+[🌐 Google scholar](https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao)
+
+
 ### Education
 - MSc. Lakehead University
 - BSc. Lakehead university
