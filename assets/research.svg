@@ -18,5 +18,5 @@
   <rect x="7" y="7" width="245" height="20" rx="15" fill="url(#shine)"/>
   
   <text x="45" y="38" font-size="18" fill="#d6eaff" font-family="Arial" font-weight="bold" text-anchor="middle">🔍</text>
-  <text x="155" y="38" font-size="18" fill="#ffffff" font-family="Arial" font-weight="bold">RESEARCH</text>
+  <text x="135" y="38" font-size="18" fill="#ffffff" font-family="Arial" font-weight="bold">RESEARCH</text>
 </svg>
