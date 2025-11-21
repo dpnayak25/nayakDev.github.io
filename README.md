@@ -1,87 +1,85 @@
-<h1 align="center">Computational Fluid Dynamics (CFD) Researcher</h1>
-
-<p align="center">
-  Passionate about <b>bio-inspired propulsion</b>, <b>fluid–structure interaction</b>, 
-  and <b>numerical simulations</b> using <b>OpenFOAM</b>, <b>MATLAB</b>, <b>ParaView</b>, and <b>ANSYS</b>.
-</p>
+# 🧠 Computational Fluid Dynamics (CFD) Research Portfolio  
+A dedicated space to showcase my research work in **bio-inspired propulsion**, **fluid–structure interaction**, and **numerical methods in CFD** using **OpenFOAM**, **MATLAB**, and **ParaView** on both **local & HPC systems**.
 
 ---
 
-## 🌐 Quick Navigation
-
-<p align="center">
-  <a href="./README.md"><img src="assets/home.svg" width="150"></a>
-  <a href="./research.md"><img src="assets/research.svg" width="150"></a>
-  <a href="./animations.md"><img src="assets/animations.svg" width="150"></a>
-  <a href="./aboutMe.md"><img src="assets/aboutMe.svg" width="150"></a>
-  <a href="https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao" target="_blank"><img src="assets/scholar.svg" width="150"></a>
-  <a href="./contact.md"><img src="assets/contact.svg" width="150"></a>
-</p>
+## 🚀 Quick Navigation  
+[![Home](assets/home.svg)](./README.md)
+[![Research](assets/research.svg)](./research.md)
+[![Animations](assets/animations.svg)](./animations.md)
+[![About Me](assets/aboutMe.svg)](./aboutMe.md)
+[![Google Scholar](assets/scholar.svg)](https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao)
+[![Contact](assets/contact.svg)](./contact.md)
 
 ---
 
-## 🔬 **Research Interests**
+## 🔬 Research Focus
 
-- 🐟 Bio-inspired propulsion & carangiform swimmers  
-- 🌊 Fluid–structure interaction & dynamic meshing  
-- ⚙ Passive vs active tail pitching (2D & 3D)  
-- 🔄 Numerical simulations using **OpenFOAM**  
-- 💡 Vortex dynamics & energy harvesting  
-- 🧠 Machine learning applied to CFD (future interest)
+**Primary Topics**  
+✔ Fluid–Structure Interaction (FSI)  
+✔ Overset Mesh & SixDoF Motion (OpenFOAM)  
+✔ Carangiform & Flapping-Based Propulsion  
+✔ Vortex Dynamics (2D & 3D)  
+✔ Nonlinear Spring Models (Duffing-type)  
+✔ Energy Extraction via Flutter Phenomena  
+✔ MATLAB-based FFT / Cycle Extraction Scripts  
 
----
-
-## 📄 **Current Research**
-
-I am currently investigating **fluid–structure interaction** between undulatory swimmer motion and flow-induced pitching of the caudal fin.  
-Focus areas:
-
-| Topic | Details |
-|------|---------|
-| **Solver** | `dynamicOversetFvMesh`, `sixDoFRigidBodyMotion` |
-| **Software** | OpenFOAM v2312 / WSL / HPC Cluster |
-| **Analysis Tools** | MATLAB, ParaView, Tecplot |
-| **Reynolds Numbers** | 500 (small swimmer) / 5000 (large swimmer) |
-| **Spring Model** | Linear & Nonlinear (Duffing-type) |
-| **Objective** | Thrust, power ratio, vortex dynamics |
+**Software & Tools**  
+| Tool | Use Case |
+|------|----------|
+| OpenFOAM | Simulations & Custom Solvers |
+| MATLAB | Data Processing & FFT |
+| ParaView / Tecplot | Flow Visualization |
+| C++ | Solver Modifications |
+| Bash / WSL | Automating OpenFOAM Pipelines |
+| HPC Systems | Slurm, Job Scripts, Scaling |
 
 ---
 
-## 📽 **Animations & Visualizations**
+## 📌 Current Work
 
-👉 Visit **[animations.md](./animations.md)** for:
-- Vortex dynamics (2D & 3D)
-- LEV/TEV formation
-- Streamwise wake evolution
-- Poincaré maps & phase diagrams
+I am modeling **a carangiform swimmer** where the **body has prescribed undulation**, while the **tail undergoes passive flow-induced pitching** using a **torsional spring-damper model**.
 
----
+| Parameter | Purpose |
+|-----------|---------|
+| Re = 500 / 5000 | Small vs. Large Swimmer |
+| J\* | Controls added inertia |
+| ζ | Damping ratio at peduncle |
+| f\* | Reduced frequency |
+| Solver | `dynamicOversetFvMesh` + `sixDoFRigidBodyMotion` |
 
-## 📚 **Publications**
-
-_(Example format — replace with your real ones)_
-
-1. **Nayak, D.P.**, *Effects of wake interaction on energy extraction performance of tandem semi-active flapping foils*, **Journal of Fluids and Structures** (2024).
-2. **Nayak, D.P.**, *Nonlinear stiffness in the passive tail of carangiform swimmers*, **Physics of Fluids** (2025 – submitted).
-
-📌 Full publication list → **[Google Scholar](https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao)**
+🔓 Objective:  
+➡ Understand how **nonlinear stiffness** affects thrust + power ratio  
+➡ Compare **active vs. passive pitching** under different flow regimes  
+➡ Visualize **vortex breakdown & LEV / TEV development**
 
 ---
 
-## 🛠️ **Skills**
+## 🎬 Simulation Animations & Flow Visuals
+➡ **See full gallery in** 👉 [`animations.md`](./animations.md)
 
-| Skill | Level |
-|------|------|
-| OpenFOAM | ⭐⭐⭐⭐⭐ |
-| MATLAB (Data + FFT) | ⭐⭐⭐⭐⭐ |
-| ParaView / Tecplot | ⭐⭐⭐⭐ |
-| Dynamic Meshing | ⭐⭐⭐⭐ |
-| C++ (modifying solvers) | ⭐⭐⭐ |
-| Machine Learning | ⭐ (exploring) |
+| Visual | Description |
+|--------|-------------|
+| LEV Formation | High-angle dynamic stall |
+| Ring Vortex | 3D flow structure |
+| Streamwise Wake | Thrust-producing structures |
+| Poincaré Maps | Limit-cycle extraction |
+
 
 ---
 
-## 🎓 **Education**
+## 🧰 Key MATLAB Scripts (Data Processing)
+
+| Script | Purpose |
+|-------|--------|
+| `extractAngle_fullWave.m` | Extract pitch angle over time |
+| `extractForces_last10.m` | Steady-state force analysis |
+| `extractFFT_spectrum.m` | Dominant frequency detection |
+| `extractPoincarePoints.m` | Poincaré mapping of cycles |
+
+---
+
+## 🧾 Education
 
 | Degree | Institute | Year |
 |--------|-----------|------|
@@ -90,14 +88,14 @@ _(Example format — replace with your real ones)_
 
 ---
 
-## 📞 **Contact**
+## 📩 Contact
 
-| Type | Details |
-|------|---------|
-| 📧 Email | dpnayak@lakeheadu.ca |
-| 🔗 LinkedIn | https://www.linkedin.com/in/dev-nayak |
-| 🌐 Google Scholar | https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao |
+| Method | Details |
+|--------|--------|
+| Email | dpnayak@lakeheadu.ca |
+| LinkedIn | https://www.linkedin.com/in/dev-nayak |
+| Google Scholar | https://scholar.google.com/citations?user=hAG54CMAAAAJ&hl=en&oi=ao |
 
 ---
 
-<h6 align="center">Made with ❤️ & OpenFOAM</h6>
+### 🧬 *This portfolio is continuously evolving — just like fluid flow.*
