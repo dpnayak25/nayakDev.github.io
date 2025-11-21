@@ -8,6 +8,6 @@
   </defs>
 
   <rect x="5" y="5" rx="15" width="310" height="50" fill="url(#water-gradient)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
-  <text x="50" y="37" font-family="Times New Roman" font-size="21" text-anchor="middle" fill="#d6eaff">✉️</text>
+  <text x="50" y="37" font-family="Times New Roman" font-size="21" text-anchor="middle" fill="#d6eaff">📨</text>
   <text x="85" y="37" font-family="Times New Roman" font-size="18" fill="white" font-weight="bold">CONTACT</text>
 </svg>
