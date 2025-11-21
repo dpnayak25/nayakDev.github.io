@@ -3,12 +3,12 @@ CFD Researcher
 <div align="center">
 <div align="center">
   <a href="README.md">
-     <img src="assets/buttons/home.svg"/>
-     <img src="assets/buttons/research.svg"/>
-     <img src="assets/buttons/animations.svg"/>
-     <img src="assets/buttons/aboutMe.svg"/>
-     <img src="assets/buttons/scholar.svg"/>
-     <img src="assets/buttons/contact.svg"/>
+     <img src="assets/home.svg"/>
+     <img src="assets/research.svg"/>
+     <img src="assets/animations.svg"/>
+     <img src="assets/aboutMe.svg"/>
+     <img src="assets/scholar.svg"/>
+     <img src="assets/contact.svg"/>
   </a>
 </div>
 
